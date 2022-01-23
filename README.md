@@ -26,6 +26,7 @@ brew update vim
 
 - Golang, integrated with vim-go (https://github.com/fatih/vim-go)
 - Configured with Nightly theme (https://github.com/bluz71/vim-nightfly-guicolors)
+- NerdTree (https://github.com/preservim/nerdtree)
 
 ## Resources
 
