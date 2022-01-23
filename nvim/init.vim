@@ -19,45 +19,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Or build from source code by using yarn: https://yarnpkg.com
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
-" Completion
-Plug 'neovim/nvim-lspconfig' " ONLY has configs
-Plug 'hrsh7th/nvim-cmp'
-Plug 'hrsh7th/cmp-buffer'    " Completes words from the current buffer
-Plug 'hrsh7th/cmp-path'      " Completes filepaths, when detected
-Plug 'hrsh7th/cmp-nvim-lua'  " Special nvim lua comps
-Plug 'hrsh7th/cmp-nvim-lsp'  " ???
-Plug 'onsails/lspkind-nvim'  " vscode-like pictograms for neovim lsp compl
 
-" Snips
-Plug 'L3MON4D3/LuaSnip'
-Plug 'saadparwaiz1/cmp_luasnip'
-
-Plug 'simrat39/symbols-outline.nvim'
-Plug 'tpope/vim-surround'
-
-" Tree sitter
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'nvim-treesitter/playground'
-
-" Search
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-telescope/telescope-fzy-native.nvim'
-
-" Git/Github/Bitbucket
-Plug 'tpope/vim-fugitive'
-Plug 'mbbill/undotree'
-Plug 'vim-utils/vim-man'
-
-" Languages/Frameworks
-Plug 'google/vim-maktaba'
-Plug 'google/vim-codefmt'
-
-" Misc
-Plug 'ThePrimeagen/vim-be-good'
-Plug 'gruvbox-community/gruvbox'
-Plug 'tpope/vim-abolish'
 call plug#end()
 
 """"""""""""""""""""""
